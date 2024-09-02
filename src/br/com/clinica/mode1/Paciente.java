@@ -13,10 +13,10 @@ public class Paciente {
 	 String uf;
 	 String telefone;
 	 String email;
-	 String Rua;
+	 
 	
 	
-	public Paciente(int idPaciente, String nome, String cpf, String dataNascimento, String sexo, String endereco, int numero, String bairro, String cidade, String uf, String telefone, String email, String Rua) {
+	public Paciente(int idPaciente, String nome, String cpf, String dataNascimento, String sexo, String endereco, int numero, String bairro, String cidade, String uf, String telefone, String email) {
         this.idPaciente = idPaciente;
         this.nome = nome;
         this.cpf = cpf;
@@ -29,7 +29,7 @@ public class Paciente {
         this.uf = uf;
         this.telefone = telefone;
         this.email = email;
-        this.Rua = Rua;
+     
     }
 
 }
